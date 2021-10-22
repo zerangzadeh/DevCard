@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\azera\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\azera\\.nuget\\packages"
+    ]
+  }
+}
