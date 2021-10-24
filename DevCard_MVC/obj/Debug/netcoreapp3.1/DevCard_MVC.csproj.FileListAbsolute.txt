@@ -36,3 +36,4 @@ E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.pdb
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.genruntimeconfig.cache
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\DevCard_MVC.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
