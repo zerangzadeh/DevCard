@@ -112,3 +112,5 @@ E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\bin\Debug\
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
+E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Footer.cshtml.g.cs
+E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Header.cshtml.g.cs
