@@ -59,6 +59,19 @@
     </section>
 <section class="contact-section px-3 py-5 p-md-5">
     <div class="container">
+        @if (!string.IsNullOrWhiteSpace(ViewBag.Success))
+        {
+            <div class="alert-success">
+                <p>@ViewBag.Success</p>
+            </div>
+        }
+        @if (!string.IsNullOrWhiteSpace(ViewBag.Error))
+        {
+            <div class="alert-danger">
+                <p>@ViewBag.Error</p>
+            </div>
+        }
+
         <form id="contact-form" class="contact-form col-lg-8 mx-lg-auto" method="post" asp-action="Contact">
             <h3 class="text-center mb-3">در دسترس باشید!</h3>
             <div class="form-row">
@@ -83,9 +96,8 @@
                 </div>
                 <div class="form-group col-12">
                     <label class="sr-only" asp-for="Message">پیغام شما</label>
-                    <textarea class="form-control" asp-for="Description"
-                              placeholder="پیغام خود را وارد نمایید ..." rows="10" required=""
-                              aria-required="true"></textarea>
+                    <textarea class="form-control" asp-for="Message"
+                              placeholder="پیغام خود را وارد نمایید ..." rows="10" ></textarea>
                 </div>
                 <div class="form-group col-12">
                     <button type="submit" class="btn btn-block btn-primary py-2">ارسال</button>
