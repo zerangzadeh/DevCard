@@ -1,0 +1,32 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "View";
+}
+
+
+<h2 class="p-3">اطلاعات مقالات</h2>
+<section class="cta-section theme-bg-light py-5">
+    <div class="m-4">
+        <table class="table table-bordered table-hover">
+            <thead>
+            <tr>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Image</td>
+                <td>DESC</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>@Model.Id</td>
+                <td>@Model.Title</td>
+                <td><img src="~/assets/images/blog/@Model.ImageArticle" class="img-thumbnail" width="100px" /></td>
+                <td>@Model.Description</td>
+                
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+

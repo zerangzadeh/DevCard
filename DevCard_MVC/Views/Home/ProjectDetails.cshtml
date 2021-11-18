@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Project
+@{
+    ViewData["Title"] = "اطلاعات پروزه";
+}
+<h2 class="p-3">اطلاعات پروزه</h2>
+<section class="cta-section theme-bg-light py-5">
+<div class="m-4">
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Image</td>
+            <td>DESC</td>
+            <td>Client</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td><img src="~/assets/images/project/@Model.ProjectImage" class="img-thumbnail" width="100px" /></td>
+            <td>@Model.Description</td>
+            <td>@Model.Client</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</section>

@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DevCard_MVC.Models
 {
@@ -16,7 +17,8 @@ namespace DevCard_MVC.Models
         [Required(ErrorMessage = "لطفا این فیلد را پر کنبد")]
         [EmailAddress(ErrorMessage = "این یک آدرس ایمیل نیست")]
         public string Email { get; set; }
-        public string Services { get; set; }
+        public int Service { get; set; }
         public string Message { get; set; }
+        public SelectList Services { get; set; }
     }
 }

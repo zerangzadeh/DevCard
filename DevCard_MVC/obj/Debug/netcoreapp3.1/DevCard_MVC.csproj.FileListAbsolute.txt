@@ -114,3 +114,5 @@ E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Footer.cshtml.g.cs
 E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Header.cshtml.g.cs
+E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\ProjectDetails.cshtml.g.cs
+E:\IT Studies\Asp.Net Sample\SecondProject in MVC\DevCard\DevCard_MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\ArticleDetails.cshtml.g.cs
